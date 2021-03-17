@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+.table thead th {
+      background: #4f5153;
+      color: white;
+}
+
+.carousel-height {
+  height: 540px;
+}
+
+.ReactTable .rt-thead.-header {
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.15);
+    background: #343a40;
+    color: white;
+    height: 36px;
+}
+
+.card-footer {
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    height: 46px;
+}
+
+.modal-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+    background: #1a1d20;
+    color: white;
+}
+.card-title{
+  color: white
+}
