@@ -49,6 +49,7 @@ class AddGunForm extends Component {
             show: false,
         });
     };
+    
     render() {
         return (
             <div>

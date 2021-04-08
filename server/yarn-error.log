@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Rakesh Rao\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add req-flash: 0.0.3,
+
+PATH: 
+  C:\Program Files\Amazon Corretto\jdk11.0.6_10\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\IncrediBuild;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Rakesh Rao\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Rakesh Rao\AppData\Local\Programs\Python\Python38\;C:\Users\Rakesh Rao\AppData\Local\Microsoft\WindowsApps;;C:\Users\Rakesh Rao\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Rakesh Rao\AppData\Roaming\npm;C:\Users\Rakesh Rao\.dotnet\tools
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: req-flash:: Invalid URI "req-flash:/"
+      at Request.module.exports.Request.init (C:\Users\Rakesh Rao\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140836:31)
+      at new Request (C:\Users\Rakesh Rao\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140690:8)
+      at request (C:\Users\Rakesh Rao\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:137596:10)
+      at RequestManager.execute (C:\Users\Rakesh Rao\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67039:15)
+      at RequestManager.shiftQueue (C:\Users\Rakesh Rao\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67077:10)
+      at C:\Users\Rakesh Rao\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66746:13
+      at new Promise (<anonymous>)
+      at new F (C:\Users\Rakesh Rao\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:5301:28)
+      at RequestManager.request (C:\Users\Rakesh Rao\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66744:19)
+      at NpmRegistry.<anonymous> (C:\Users\Rakesh Rao\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:31704:42)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "mysql": "^2.18.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
